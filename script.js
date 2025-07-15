@@ -38,7 +38,7 @@ let middleName;
 
 // Object
 let person = {
-  name: "nombre",
+  firstName: "nombre",
   surname: "apellido",
   age: "age",
   isAdult: "isAdult",
@@ -47,7 +47,7 @@ let person = {
 // Array
 let hobbies = ["leer", "viajar", "hacer senderismo"];
 
-console.log("Nombre:", name);
+console.log("Nombre:", firstName);
 console.log("Apellido:", surname);
 console.log("Edad:", age);
 console.log("¿Es adulto?:", isAdult);
@@ -64,9 +64,7 @@ console.log("Pasatiempos:", hobbies);
 
 let numberOne = 8;
 let numberTwo = 12;
-let add = numberOne + numberTwo;
-
-console.log("El resultado de la suma es:", add);
+console.log("El resultado de la suma es:", addnumberOne + numberTwo);
 
 
 //Ejercicio 5: Crea una varible que reste 2 números e imprime el resultado en consola.
@@ -75,9 +73,7 @@ console.log("El resultado de la suma es:", add);
 
 let numberFirst = 20;
 let numberSecond = 7;
-let subtract = numberFirst - numberSecond;
-
-console.log("El resultado de la resta es:", subtract);
+console.log("El resultado de la resta es:", numberFirst - numberSecond);
 
 
 //Ejercicio 6: Crea una varible que multiplique 2 números e imprime el resultado en consola.
@@ -86,9 +82,7 @@ console.log("El resultado de la resta es:", subtract);
 
 let numberThree = 6;
 let numberFour = 4;
-let multiply = numberThree * numberFour;
-
-console.log("El resultado de la multiplicación es:", multiply);
+console.log("El resultado de la multiplicación es:", numberThree * numberFour);
 
 
 //Ejercicio 7: Crea una varible que divida 2 números e imprime el resultado en consola.
@@ -96,9 +90,7 @@ console.log("El resultado de la multiplicación es:", multiply);
 //Escribe tu código aquí
 let numero1 = 36;
 let numero2 = 6;
-let division = numero1 / numero2;
-
-console.log("El resultado de la división es:", division);
+console.log("El resultado de la división es:", numero1 / numero2);
 
 
 
@@ -109,9 +101,8 @@ console.log("El resultado de la división es:", division);
 
 let firstValue = 1;
 let secondValue = 2;
-let compare = firstValue < secondValue;
 
-console.log("¿Es el primer valor menor que el segundo?:", compare);
+console.log("¿Es el primer valor menor que el segundo?:", comparefirstValue < secondValue);
 
 
 // Ejercicio 9: Crea otra variable que compare las dos primeras variables creadas en el ejercicio anterior, para que el resultado impreso en la consola sea true.
@@ -120,9 +111,7 @@ console.log("¿Es el primer valor menor que el segundo?:", compare);
 
 let valor1 = 1;
 let valor2 = 2;
-let comparacionCorrecta = valor2 > valor1;
-
-console.log("¿Es el segundo valor mayor que el primero?:", comparacionCorrecta);
+console.log("¿Es el segundo valor mayor que el primero?:", valor1 < valor2);
 
 
 //Ejercicio 10: completa el ejercicio
@@ -135,10 +124,8 @@ console.log(comparacion)
 */
 let num1 = 15;
 let num2 = 20;
-
-let comparacion = num1 < num2;
-
-console.log(comparacion); // true
+console.log(num1 <= num2)
+// true
 
 
 //Ejercicio 11: completa el ejercicio
@@ -149,12 +136,9 @@ let num3AsString = "1"
 let result = //Realiza la operación de comparación que consideres entre las dos variables dadas, para que el resultado en consola sea false sin usar el comparador de desigualdad
 console.log(result) 
 */
-let numero3 = 1;
-let numero3AsString = "1";
-
-let result = numero3 === numero3AsString;
-
-console.log(result); // false
+let numero8 = 1;
+let numero4 = "1";
+console.log(numero8 === numero4); // false
 
 
 //Ejercicio 12: completa el ejercicio
@@ -162,27 +146,18 @@ console.log(result); // false
 let result2 = //Realiza la operación de comparación que consideres con las dos variables del ejercicio anterior para que el resultado en consola sea true.
 console.log(result2)
 */
-let num3 = 1;
-let num3AsString = "1";
-
-let result2 = num3 == num3AsString;
-
-console.log(result2); // true
-
-
-
-//OPERADORES DE CADENAS
+let numero3 = 1;
+let numero9 = "1";
+console.log(numero3 == numero9);
 //Ejercicio 13: Crea una variable con tu nombre y otra variable con tu apellido y crea otra nueva variable con tu nombre completo concatenando las dos variables anteriores e imprime en consola. Debe haber un espacio entre tu nombre y apellido.
 
 //Escribe tu código aquí
 
 let nombre = "ana";
 let apellido = "molina";
-let nombreCompleto = nombre + " " + apellido;
+let nombreCompleto = nombre + " " + 
 
 console.log("Nombre completo:", nombreCompleto);
-
-
 
 //OPERADORES DE LÓGICA
 //Ejercicio 14: Descomenta todo el bloque desde la variable 'a' hasta el 'console.log(res6)' y completa el ejercicio. (Saldrá un error y no podrás visualizar el resultado hasta que termines este ejercicio)
